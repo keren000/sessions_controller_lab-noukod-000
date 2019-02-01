@@ -17,9 +17,5 @@ class SessionsController < ApplicationController
     redirect_to '/login'
   end
 
-  def valid_name?(name)
 
-    name != nil && name != ""
-
-  end
 end
