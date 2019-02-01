@@ -17,6 +17,7 @@ class SessionsController < ApplicationController
     # redirect_to '/login'
     session.clear
 
-   redirect_to root_path
+  #  redirect_to root_path
+     redirect_to '/login'
   end
 end
